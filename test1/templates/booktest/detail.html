@@ -1,0 +1,9 @@
+
+<h1>{{ book.btitle }}</h1>
+<h2>{{ book.bpub_time }}</h2>
+
+<ul>
+    {% for h in heros %}
+        <li> {{ h.hname }} -- {{ h.hcomment}}</li>
+    {% endfor %}
+</ul>

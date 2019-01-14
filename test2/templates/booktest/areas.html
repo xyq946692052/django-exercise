@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>self raletion</title>
+    </head>
+    <body>
+        <h1>当前地区</h1>
+        {{ area.atitle}}<br/>
+        <h1>父级地区</h1>
+        {{ parent.atitle}}<br/>
+        <h1>下级地区</h1>
+        <ul>
+            {% for child in children %}
+                <li>{{ child.atitle }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

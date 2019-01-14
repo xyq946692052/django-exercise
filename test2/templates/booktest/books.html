@@ -1,0 +1,14 @@
+
+<a href="/books">index</a> | <a href="/create">新增</a>    
+
+{% for k in bookobjs%}
+       <h2> {{ k.btitle }} ----<a href="/delete/{{ k.id }}">删除</a></h2>
+      <hr/>
+      <h3>
+           发布时期：{{ k.bpub_date }}<br>
+           阅读数：{{ k.bread}}<br>
+           评论数：{{ k.bcomment }}
+           
+      </h3>
+     
+    {% endfor %}

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>test ajax</title>
+        <style>
+            #message{
+                display: none;
+                color: red;
+            }
+        </style>
+        <script src="/static/js/jquery-1.10.2.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                alert('1');
+                $("#btn").click(function(){
+                    $.get("/ajax_handle", function(data, status){
+                        alert('2');
+                        if(data.res==1){
+                             $("#message").show().html("提示信息");
+                        }
+                    });
+                });
+                alert('3');
+            });
+        </script>
+    </head>
+    <body>
+        <input type="button" id="btn" value="ajax btn">
+        <div id="message">
+      
+        </div>
+    </body>
+</html>
