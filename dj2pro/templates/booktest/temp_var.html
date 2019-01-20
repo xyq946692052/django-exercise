@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ my_dict }}
+<hr/>
+{% for k in my_list %}
+    {{ k }}
+{% endfor %}
+{{ my_list.1 }}
+<hr>
+{% for b in book %}
+    {{ b.title }}
+    {{ b.bpub_date }}
+    {{ b.bread }}
+    {{ b.bcomment }}
+{% endfor %}
+</body>
+</html>
