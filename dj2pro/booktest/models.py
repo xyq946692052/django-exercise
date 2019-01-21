@@ -28,7 +28,7 @@ class AreaInfo(models.Model):
         return self.aParent.atitle
 
     atitle.admin_order_filed = 'atitle'
-    parent.short_description = '父级名'  # admin页面列名
+    parent.short_description = '父级地名'  # admin页面列名
 
     class Meta:
         db_table = 'booktest_areainfo'
