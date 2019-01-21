@@ -37,14 +37,16 @@ import xadmin
 # admin.site.register(AreaInfo, AreaInfoAdmin)
 # admin.site.register(PicTest, PicTestAdmin)
 
-#使用xadmin方式
+# 使用xadmin方式
 class AreaInfoAdmin(object):
     list_display = ['id', 'atitle', 'parent']
     search_fields = ['atitle']
     list_filter = ['atitle']
 
+
 class PicTestAdmin(object):
     list_display = ['id', 'goods_pic']
+
 
 xadmin.site.register(AreaInfo, AreaInfoAdmin)
 xadmin.site.register(PicTest, PicTestAdmin)
