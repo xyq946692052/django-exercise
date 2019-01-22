@@ -1,8 +1,9 @@
 # -*- coding: UTF-8 -*-
 from django.shortcuts import render, redirect, HttpResponse
 from django.utils.six import BytesIO
+from django.conf import settings
 from PIL import Image, ImageDraw, ImageFont
-from booktest.models import BookInfo
+from booktest.models import BookInfo, PicTest
 
 # Create your views here.
 
@@ -138,3 +139,23 @@ def verify_code(request):
     im.save(buf, 'png')
     # 将内存中的图片数据返回到客户端，MIMEpng
     return HttpResponse(buf.getvalue(), 'image/png')
+
+# 用户上传文件
+def show_upload(request):
+    return render(request, 'booktest/upload_pic.html')
+
+def upload_handle(request):
+    # 1、获取上传文件的处理对象
+    pic = request.FILES['pic']
+    # 2、创建保存的路径
+    save_path = '{}/booktest/{}'.format(settings.MEDIA_ROOT, pic.name)
+
+    with open(save_path, 'wb') as f:
+        # 3、获取上传文件的内容， 并写到创建的文件中
+        for content in pic.chunks():   # pic.chunks文件内容
+            f.write(content)
+
+    # 4、数据库中保存上传记录
+    PicTest.objects.create(goods_pic='booktest/{}'.format(pic.name))
+    # 5、返回
+    return HttpResponse('<h1>upload success!</h1>')
