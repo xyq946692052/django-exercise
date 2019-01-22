@@ -2,11 +2,7 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-<<<<<<< HEAD
       <paths name="xyq@192.168.13.141:22">
-=======
-      <paths name="xyq@192.168.139.130:22">
->>>>>>> a37365337e0fdbb2e4662ff42bd3663354ddfc09
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
