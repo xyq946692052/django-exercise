@@ -2,8 +2,10 @@
 from django.shortcuts import render, redirect, HttpResponse
 from django.utils.six import BytesIO
 from django.conf import settings
+from django.core.paginator import Paginator
 from PIL import Image, ImageDraw, ImageFont
-from booktest.models import BookInfo, PicTest
+from booktest.models import BookInfo, PicTest, AreaInfo
+
 
 # Create your views here.
 
@@ -19,7 +21,7 @@ def login_required(func):
 
 def index(request):
     print('----------index-----------')
-    s = 1/0
+    s = 1 / 0
     client_ip = request.META['REMOTE_ADDR']
     return render(request, 'booktest/index.html', {'client_ip': client_ip})
 
@@ -140,9 +142,11 @@ def verify_code(request):
     # 将内存中的图片数据返回到客户端，MIMEpng
     return HttpResponse(buf.getvalue(), 'image/png')
 
+
 # 用户上传文件
 def show_upload(request):
     return render(request, 'booktest/upload_pic.html')
+
 
 def upload_handle(request):
     # 1、获取上传文件的处理对象
@@ -152,10 +156,34 @@ def upload_handle(request):
 
     with open(save_path, 'wb') as f:
         # 3、获取上传文件的内容， 并写到创建的文件中
-        for content in pic.chunks():   # pic.chunks文件内容
+        for content in pic.chunks():  # pic.chunks文件内容
             f.write(content)
 
     # 4、数据库中保存上传记录
     PicTest.objects.create(goods_pic='booktest/{}'.format(pic.name))
     # 5、返回
     return HttpResponse('<h1>upload success!</h1>')
+
+
+def show_area(request, num):
+    areas = AreaInfo.objects.filter(aParent__isnull=False)
+    paginator = Paginator(areas, 10)
+    if num == '':
+        num = 1
+    page = paginator.page(int(num))
+    page_range = page.paginator.page_range
+
+    current_page = page.number
+    if paginator.num_pages > 12:
+        if current_page < 10:
+            print('-------------1')
+            page_range = page_range[:10]
+        elif  10<= current_page <= paginator.num_pages-10:
+            print('-----------2')
+            page_range = page_range[current_page-5:current_page+5]
+        else:
+            print('---------3')
+            page_range = page_range[paginator.num_pages-10:]
+        print('++++++++++', page_range)
+
+    return render(request, 'booktest/show_area.html', {'page': page, 'page_range': page_range})

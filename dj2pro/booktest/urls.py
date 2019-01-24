@@ -13,4 +13,5 @@ urlpatterns = [
     path('verify_code', views.verify_code),
     path('show_upload', views.show_upload),
     path('upload_handle', views.upload_handle),
+    path('show_area/<int:num>', views.show_area),
 ]
