@@ -50,7 +50,7 @@
     ...
     <a href="/show_area/{{page.paginator.num_pages}}">{{page.paginator.num_pages}}</a>
 
-{% elif 10 <= page.number <= page.paginator.num_pages|add:-15 %}
+{% elif 10 <= page.number <= page.paginator.num_pages|add:-20 %}
     <a href="/show_area/1">1</a>
     ...
     {% for p in page_range %}
@@ -63,7 +63,7 @@
     ...
     <a href="/show_area/{{page.paginator.num_pages}}">{{page.paginator.num_pages}}</a>
 
-{% else %}
+{% elif  page.number > page.paginator.num_pages|add:-10 %}
     <a href="/show_area/1}}">1</a>
     ...
     {% for p in page_range %}
