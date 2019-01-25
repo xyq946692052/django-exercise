@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load filters %}
+<head>
+    <meta charset="UTF-8">
+    <title>模板标签</title>
+    <style>
+        .yellow {
+            background-color: yellow;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<h2>带一个参数的自定义过滤器</h2>
+<ul>
+    {% for b in books %}
+        {% if b.id|mod %}
+            <li class="yellow">{{ forloop.counter }} ----{{ b.btitle }}</li>
+        {% else %}
+            <li class="orange">{{ forloop.counter }} ----{{ b.btitle }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+<hr/>
+<h2>带多个参数的自定义过滤器</h2>
+<ul>
+    {% for b in books %}
+        {% if b.id|mod_val:3 %}
+            <li class="yellow">{{ forloop.counter }} ----{{ b.btitle }}</li>
+        {% else %}
+            <li class="orange">{{ forloop.counter }} ----{{ b.btitle }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+<hr/>
+</body>
+</html>

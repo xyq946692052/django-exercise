@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form method="POST" action="/login_check">
+    {% csrf_token %}
+    username: <input type="text" name="username" value="{{ username }}"></br/>
+    password: <input type="password" name="password" value="{{ password }}"><br/>
+    <img src="/verify_code"/><br/>
+    verify Code: <input type="input" name="vcode"/><br/>
+    <input type="checkbox" name="remember">记住用户名
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
