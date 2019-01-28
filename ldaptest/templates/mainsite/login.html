@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Login
+        </title>
+        <style>
+            .loginform{
+                 margin-left:5%;
+                 margin-top:3%;
+                 border:1px solid #cccccc;
+                 width:300px;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="loginform">
+            <form method="POST" action="/login_check">
+
+                {% csrf_token%}
+
+                username: <input type="text" name="username"/><br/>
+                password: <input type="password" name="password" /><br/>
+                <input type="submit" value="submit"/>
+            </form>
+        </div>
+    </body>
+</html>
