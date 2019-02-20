@@ -5,5 +5,9 @@ db.sqlite3
 
 **/__pycache__
 **/migrations/
+<<<<<<< HEAD
+=======
+
+>>>>>>> b79642c1d3019082b3208fa6662507e9e0196910
 
 
