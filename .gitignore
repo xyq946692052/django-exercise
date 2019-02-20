@@ -1,18 +1,9 @@
 *.pyc
 *.zip
-.git
 .idea/
 db.sqlite3
 
-serapipro/serapipro/__pycache__
-serapipro/snippets/__pycache__
-serapipro/snippets/migrations/
-
-dj2pro/serapipro/__pycache__
-dj2pro/xadmin/__pycache__
-dj2pro/booktest/__pycache__
-dj2pro/xadmin/migrations/
-dj2pro/booktest/migrations/
-dj2pro/xadmin/migrations/
+**/__pycache__
+**/migrations/
 
 

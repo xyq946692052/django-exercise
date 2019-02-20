@@ -35,4 +35,4 @@ class AreaInfo(models.Model):
 
 
 class PicTest(models.Model):
-    goods_pic = models.ImageField(upload_to='booktest')
+    goods_pic = models.ImageField(upload_to='booktest/')

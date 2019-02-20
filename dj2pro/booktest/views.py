@@ -21,7 +21,6 @@ def login_required(func):
 
 def index(request):
     print('----------index-----------')
-    s = 1 / 0
     client_ip = request.META['REMOTE_ADDR']
     return render(request, 'booktest/index.html', {'client_ip': client_ip})
 
@@ -160,9 +159,18 @@ def upload_handle(request):
             f.write(content)
 
     # 4、数据库中保存上传记录
-    PicTest.objects.create(goods_pic='booktest/{}'.format(pic.name))
+    PicTest.objects.create(
+        goods_pic='booktest/{}'.format(pic.name)
+    )
     # 5、返回
-    return HttpResponse('<h1>upload success!</h1>')
+    return redirect('/show_imgs')
+
+
+def show_imgs(request):
+    context = {}
+    picobjs = PicTest.objects.all()
+    context['picobjs'] = picobjs
+    return render(request,'booktest/show_imgs.html', context)
 
 
 def show_area(request, num):

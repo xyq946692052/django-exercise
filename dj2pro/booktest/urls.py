@@ -1,4 +1,6 @@
-from django.urls import path
+from django.urls import path,re_path
+from django.conf import settings
+from django.views.static import serve
 from . import views
 
 urlpatterns = [
@@ -14,4 +16,7 @@ urlpatterns = [
     path('show_upload', views.show_upload),
     path('upload_handle', views.upload_handle),
     path('show_area/<int:num>', views.show_area),
+    path('show_imgs', views.show_imgs),
+    re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
 ]
+

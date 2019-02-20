@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce194769-3083-407b-8fa6-96b0209b2e1d" name="Default Changelist" comment="" />
+    <list default="true" id="ce194769-3083-407b-8fa6-96b0209b2e1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booktest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/booktest/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booktest/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booktest/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booktest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/booktest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/booktest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj2pro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj2pro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/booktest/upload_pic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/booktest/upload_pic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serapipro/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../serapipro/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serapipro/snippets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../serapipro/snippets/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,29 +106,58 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1013935291">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="6" />
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="6" />
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="201" />
+          <entry key="py" value="520" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="201" />
+          <entry key="Python" value="520" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj2pro/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="115" column="14" lean-forward="true" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+            <state relative-caret-position="462">
+              <caret line="131" column="9" selection-start-line="130" selection-end-line="132" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/booktest/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="462">
+              <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <marker date="1547997265613" expanded="true" signature="155:160" ph="..." />
-                <marker date="1547997265613" expanded="true" signature="237:271" ph="..." />
-                <marker date="1547997265613" expanded="true" signature="309:802" ph="..." />
-                <marker date="1547997265613" expanded="true" signature="760:802" ph="..." />
               </folding>
             </state>
           </provider>
@@ -125,15 +166,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/booktest/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <marker date="1547997226245" expanded="true" signature="88:93" ph="..." />
-                <marker date="1547997226245" expanded="true" signature="344:353" ph="..." />
-                <marker date="1547997226245" expanded="true" signature="406:411" ph="..." />
-                <marker date="1547997226245" expanded="true" signature="574:811" ph="..." />
-                <marker date="1547997226245" expanded="true" signature="679:720" ph="..." />
-                <marker date="1547997226245" expanded="true" signature="892:897" ph="..." />
+                <element signature="e#93#374#0" />
+                <element signature="e#411#862#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booktest/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booktest/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1449">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="e#24#83#0" expanded="true" />
+                <marker date="1550641889311" expanded="true" signature="5070:5135" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/booktest/upload_pic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="14" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/booktest/show_area.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/booktest/temp_filter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/booktest/show_imgs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,10 +241,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,18 +260,20 @@
         <option value="$PROJECT_DIR$/booktest/templatetags/filters.py" />
         <option value="$PROJECT_DIR$/templates/booktest/temp_filter.html" />
         <option value="$PROJECT_DIR$/templates/booktest/change_pwd.html" />
-        <option value="$PROJECT_DIR$/booktest/urls.py" />
         <option value="$PROJECT_DIR$/templates/booktest/login.html" />
         <option value="$PROJECT_DIR$/templates/booktest/index.html" />
-        <option value="$PROJECT_DIR$/booktest/views.py" />
         <option value="$PROJECT_DIR$/booktest/middleware.py" />
-        <option value="$PROJECT_DIR$/dj2pro/settings.py" />
         <option value="$PROJECT_DIR$/booktest/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/booktest/migrations/0002_auto_20190120_2303.py" />
         <option value="$PROJECT_DIR$/booktest/migrations/0003_areainfo_bookinfo_pictest.py" />
         <option value="$PROJECT_DIR$/booktest/migrations/0002_areainfo_bookinfo_pictest.py" />
-        <option value="$PROJECT_DIR$/booktest/models.py" />
+        <option value="$PROJECT_DIR$/dj2pro/settings.py" />
         <option value="$PROJECT_DIR$/booktest/admin.py" />
+        <option value="$PROJECT_DIR$/booktest/views.py" />
+        <option value="$PROJECT_DIR$/templates/booktest/show_imgs.html" />
+        <option value="$PROJECT_DIR$/booktest/models.py" />
+        <option value="$PROJECT_DIR$/booktest/urls.py" />
+        <option value="$PROJECT_DIR$/templates/booktest/upload_pic.html" />
       </list>
     </option>
   </component>
@@ -181,16 +283,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="644" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="18" />
+    <option name="y" value="-11" />
     <option name="width" value="1271" />
     <option name="height" value="893" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,33 +311,29 @@
             <path>
               <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
               <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
+              <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="booktest" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
               <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="booktest" type="462c0819:PsiDirectoryNode" />
-              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
-              <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dj2pro" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (py3) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="dj2pro" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +343,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +350,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../serapipro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -281,11 +381,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="644" y="0" width="1271" height="893" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19157721" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16905445" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -316,16 +415,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dj2pro/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -350,12 +439,8 @@
     <entry file="file://$PROJECT_DIR$/booktest/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ac166e35-39bb-458f-b568-1894b3cc3106/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/75bb79b2-2a15-4777-a014-f0d13e97dabf/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ac166e35-39bb-458f-b568-1894b3cc3106/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/75bb79b2-2a15-4777-a014-f0d13e97dabf/console.sql" />
     <entry file="das://75bb79b2-2a15-4777-a014-f0d13e97dabf/schema/bj18/table/bookinfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -377,30 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/booktest/temp_filter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/booktest/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booktest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="43" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/booktest/change_pwd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -408,50 +469,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/booktest/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booktest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-            <marker date="1547966527310" expanded="true" signature="229:230" ph="..." />
-            <marker date="1547966527310" expanded="true" signature="255:466" ph="..." />
-            <marker date="1547966527310" expanded="true" signature="296:449" ph="..." />
-            <marker date="1547966527310" expanded="true" signature="581:586" ph="..." />
-            <marker date="1547966527310" expanded="true" signature="699:885" ph="..." />
-            <marker date="1547966527310" expanded="true" signature="1052:1057" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/booktest/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-          <folding>
-            <element signature="e#24#60#0" expanded="true" />
-            <marker date="1547966635455" expanded="true" signature="159:160" ph="..." />
-            <marker date="1547966635455" expanded="true" signature="472:750" ph="..." />
-            <marker date="1547966635455" expanded="true" signature="509:632" ph="..." />
-            <marker date="1547966635455" expanded="true" signature="1104:1109" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booktest/migrations/0002_auto_20190120_1457.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/migrations/0002_auto_20190120_1457.py" />
     <entry file="file://$PROJECT_DIR$/booktest/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -468,27 +493,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booktest/migrations/0002_auto_20190120_2303.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booktest/migrations/0003_areainfo_bookinfo_pictest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booktest/migrations/0002_areainfo_bookinfo_pictest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/migrations/0002_auto_20190120_2303.py" />
+    <entry file="file://$PROJECT_DIR$/booktest/migrations/0003_areainfo_bookinfo_pictest.py" />
+    <entry file="file://$PROJECT_DIR$/booktest/migrations/0002_areainfo_bookinfo_pictest.py" />
     <entry file="file://$PROJECT_DIR$/booktest/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-278">
@@ -496,41 +503,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booktest/models.py">
+    <entry file="file://$USER_HOME$/Envs/py3/Lib/site-packages/django/contrib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj2pro/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="420">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
-            <marker date="1547997226245" expanded="true" signature="88:93" ph="..." />
-            <marker date="1547997226245" expanded="true" signature="344:353" ph="..." />
-            <marker date="1547997226245" expanded="true" signature="406:411" ph="..." />
-            <marker date="1547997226245" expanded="true" signature="574:811" ph="..." />
-            <marker date="1547997226245" expanded="true" signature="679:720" ph="..." />
-            <marker date="1547997226245" expanded="true" signature="892:897" ph="..." />
+            <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Envs/py3/Lib/site-packages/django/contrib/__init__.py">
+    <entry file="file://$PROJECT_DIR$/templates/booktest/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/booktest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/booktest/temp_filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj2pro/settings.py">
+    <entry file="file://$PROJECT_DIR$/booktest/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="115" column="14" lean-forward="true" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/booktest/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="462">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <marker date="1547997265613" expanded="true" signature="155:160" ph="..." />
-            <marker date="1547997265613" expanded="true" signature="237:271" ph="..." />
-            <marker date="1547997265613" expanded="true" signature="309:802" ph="..." />
-            <marker date="1547997265613" expanded="true" signature="760:802" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#93#374#0" />
+            <element signature="e#411#862#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj2pro/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="131" column="9" selection-start-line="130" selection-end-line="132" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1449">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#83#0" expanded="true" />
+            <marker date="1550641889311" expanded="true" signature="5070:5135" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/booktest/upload_pic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="14" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/booktest/show_area.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/booktest/show_imgs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

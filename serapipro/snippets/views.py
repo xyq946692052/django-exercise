@@ -4,15 +4,15 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
-from rest_framework omport renderers
+from rest_framework import renderers
 from rest_framework import status
 from rest_framework import mixins
 from rest_framework import generics
-rom rest_framework import permissions
+from rest_framework import permissions
 from rest_framework.reverse import reverse
 from . permissions import IsOwnerOrReadOnly
-from . models import Snippet
-from . serializers import SnippetSerializer, UserSerializer
+from . models import Snippet, PicFile
+from . serializers import SnippetSerializer, UserSerializer, PicSerializer
 
 
 # 1、 基于函数的视图
@@ -143,7 +143,6 @@ class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
                           IsOwnerOrReadOnly,)
 
 
-
 class UserList(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
@@ -152,6 +151,22 @@ class UserList(generics.ListAPIView):
 class UserDetail(generics.RetrieveAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
+
+
+class PicList(generics.ListCreateAPIView):
+    queryset = PicFile.objects.all()
+    serializer_class = PicSerializer
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
+
+
+class PicDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = PicFile.objects.all()
+    serializer_class = PicSerializer
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,
+                          IsOwnerOrReadOnly,)
 
 
 @api_view

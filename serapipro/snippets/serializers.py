@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from django.contrib.auth.models import User
 from rest_framework import serializers
-from .models import Snippet, LANGUAGE_CHOICE, STYLE_CHOICE
+from .models import Snippet, LANGUAGE_CHOICE, STYLE_CHOICE, PicFile
 
 # 1、方式一
 # class SnippetSerializer_bak(serializers.Serializer):
@@ -42,3 +42,10 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ('id', 'username', 'snippets')
+
+
+
+class PicSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PicFile
+        fields = ('id', 'pic')
